@@ -13,7 +13,8 @@ int buttonState = 0;	//ボタンの状態を記憶する変数
 void setup() {
   
 	pinMode(LED, OUTPUT);	   //LEDピンを出力に設定
-	pinMode(BUTTON, INPUT);	 //BUTTONピンを入力に設定(プルアップ)
+	pinMode(BUTTON, INPUT);	 //BUTTONピンを入力に設定
+	//pinMode(BUTTON, INPUT_PULLUP);//BUTTONピンを入力に設定(プルアップ)
   
 }
 
